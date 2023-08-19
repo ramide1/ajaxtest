@@ -11,7 +11,7 @@ const getMensaje = () => {
             document.getElementById('mensaje').style.color = 'red';
         }
     }
-    http.open('GET', 'http://localhost/gracias.txt', true);
+    http.open('GET', 'https://ramide1.github.io/ajaxtest/gracias.txt', true);
     http.send();
 }
 //Funcion para validar que no este vacio
